@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pclSystem.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pclType.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pclEmitter.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pclField.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{b4bdcd76-b896-4cd2-9019-6d3360c280f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes">
+      <UniqueIdentifier>{d5bbe552-3027-49b9-a77a-1f4ddc540037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pclSystem.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pclType.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pclEmitter.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pclField.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
